@@ -25,7 +25,6 @@ body > header {
     color: var(--warna-txt-putih);
     position: relative;
 }
-
 /************* Navigasi Style *************/
 /******************************************/
 .nav-container {
@@ -155,20 +154,19 @@ header input:checked~nav {
 .showcase {
     display: flex;
     flex-direction: column;
-    padding: 3rem 4rem;
 }
 .showcase-img {
     margin-bottom: 1rem;
 }
 .showcase-img img {
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid silver;
-    box-shadow: 3px 3px 3px var(--warna-background);
+    box-shadow: 2px 2px 3px var(--warna-background);
 }
 .showcase-txt h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.5rem; /***************************************************/
     padding: 1rem;
 }
 .showcase-txt p {
@@ -469,6 +467,7 @@ footer {
     .showcase {
         flex-direction: row;
         justify-content: space-between;
+        padding: 3rem;
     }
     .showcase-img, .showcase-txt {
         width: 50%;
